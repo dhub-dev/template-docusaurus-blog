@@ -1,11 +1,7 @@
 ---
 slug: how-it-works
 title: How it works
-authors: [valrepsys, arijus]
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+authors: [personX]
 tags: [dhub, hello, docusaurus, features]
 ---
 
