@@ -5,6 +5,10 @@ authors: [personX]
 tags: [dhub, hello, docusaurus, features]
 ---
 
+# Learn how Docusaurus works
+
+This page provides instructions about Docusaurus framework and its best practices.
+
 ## Framework
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
