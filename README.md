@@ -2,6 +2,8 @@
 
 ## Getting Started with Dhub and Docusaurus
 
+Hello
+
 Greetings, blogger! 🚀 Welcome to Dhub, your all-in-one online editor designed for crafting beautiful blogs using the powerful Docusaurus framework.
 
 ## Navigating Your Blogging Space
