@@ -2,6 +2,8 @@
 
 ## Getting Started with Dhub and Docusaurus
 
+! text handler not found! inline-image-btn handler not found
+
 Greetings, blogger! 🚀 Welcome to Dhub, your all-in-one online editor designed for crafting beautiful blogs using the powerful Docusaurus framework.
 
 ## Navigating Your Blogging Space
