@@ -8,9 +8,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Blog Website",
+  title: "Universal Blog",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
+  organizationName: "personal", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -60,7 +60,6 @@ const config = {
       title: "Blog Website",
       items: [
         //Your links in the site header
-        { to: "/", label: "Home", position: "left" },
         { to: "/about-page", label: "About Me", position: "left" },
       ],
     },
@@ -68,25 +67,29 @@ const config = {
       style: "light",
       links: [
         {
-          title: "Docusaurus Community",
+          title: "Community",
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://stackoverflow.com/questions/tagged/dhub",
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://discord.com/invite/6qGnyrt7xy",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/withdhub",
             },
           ],
         },
         {
-          title: "Docusaurus Resources",
+          title: "Docusaurus",
           items: [
+            {
+              label: "Home",
+              href: "https://docusaurus.io",
+            },
             {
               label: "Documentation",
               href: "https://docusaurus.io/docs/blog",
@@ -98,28 +101,15 @@ const config = {
           ],
         },
         {
-          title: "Dhub Resources",
+          title: "Dhub",
           items: [
             {
-              label: "Application",
+              label: "Home",
               href: "https://dhub.dev",
             },
             {
-              label: "Documentation",
-              href: "https://docs.dhub.dev",
-            },
-          ],
-        },
-        {
-          title: "Site links",
-          items: [
-            {
-              label: "Blog Posts",
-              href: "/",
-            },
-            {
-              label: "About Me",
-              href: "/about-page",
+              label: "Get in touch",
+              href: "mailto:hello@dhub.dev",
             },
           ],
         },

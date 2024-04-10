@@ -1,11 +1,10 @@
 ---
 slug: how-it-works
-title: Learn How Docusaurus Works
-authors: [personX]
+title: How to create a blog post
 tags: [dhub, docusaurus, features]
 ---
 
-# Learn How Docusaurus Works
+# How to Create a Blog Post
 
 This page is your gateway to understanding the essential features that make your blog tick. Get ready to explore the key elements that make Docusaurus a powerful tool for bloggers.
 
@@ -37,11 +36,11 @@ Explore two ways to add visuals to your blog:
 
    Keep your images in a centralized folder. Upload them to `/static/img/`:
 
-   [![A closeup shot of rocks](/img/rocks.jpg 'A photo by Nick Nice')](https://unsplash.com/photos/shallow-focus-photography-of-gravels-zwjSCTItiZU)
+   [![A closeup shot of rocks](/img/rocks.jpg "A photo by Nick Nice")](https://unsplash.com/photos/shallow-focus-photography-of-gravels-zwjSCTItiZU)
 
 2. **Next to the Post File**
 
-   Place your images next to the post file. For example, `plants.png` can be stored next to the `index.md` file in the `2024-01-20-how-it-works` folder:[![A closeup shop of plants](./plants.jpg 'A photo by Nahil Naseer')](https://unsplash.com/photos/green-leaf-plants-xljtGZ2-P3Y)
+   Place your images next to the post file. For example, `plants.png` can be stored next to the `index.md` file in the `2024-01-20-how-it-works` folder:[![A closeup shop of plants](./plants.jpg "A photo by Nahil Naseer")](https://unsplash.com/photos/green-leaf-plants-xljtGZ2-P3Y)
 
 ## Truncate
 
