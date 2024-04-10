@@ -5,6 +5,28 @@ authors: [emma]
 tags: [dhub]
 ---
 
-# How to Create a New Blog Post?
+# How to Create a Blog Post
 
-To create a new blog post simply create a new file that starts with a date.
+[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog). Simply add Markdown files (or folders) to the `blog` directory. The blog post date can be extracted from filenames, such as:
+
+- `2024-01-21.md`
+- `2024-01-21-how-it-works/index.md`
+
+<!--truncate-->
+
+## Truncate
+
+Limit the size of your blog posts in the list view using a `<!-- truncate -->` comment. In the Dhub editor, add it as an **embedded MDX** code block from "/" components menu.
+
+## Authors
+
+Understand how authors are managed through the `blog/authors.yml` file, ensuring proper attribution to content creators.
+
+:::note
+
+At the moment, Dhub editor doesn't support opening this file; it has to be configured outside the Dhub editor.
+
+:::
+
+Learn about the `authors.yml` file structure at Docusaurus documentation: [Docusaurus Blog Documentation - Global Authors.](https://docusaurus.io/docs/blog#global-authors)
+
