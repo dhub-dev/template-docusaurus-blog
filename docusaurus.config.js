@@ -61,6 +61,18 @@ const config = {
       items: [
         //Your links in the site header
         { to: "/about-page", label: "About Me", position: "left" },
+        {
+          "aria-label": "Discord Invite",
+          className: "navbar--discord-link",
+          href: "https://discord.gg/6qGnyrt7xy",
+          position: "right",
+        },
+        {
+          "aria-label": "GitHub Repository",
+          className: "navbar--github-link",
+          href: "https://github.com/dhub-dev/template-docusaurus-blog",
+          position: "right",
+        },
       ],
     },
     footer: {
